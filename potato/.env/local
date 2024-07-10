@@ -1,3 +1,0 @@
-DB_NAME="jdbc:mysql://114.206.181.50:3306/potato"
-DB_USERNAME="potato"
-DB_PASSWORD="potato123"
