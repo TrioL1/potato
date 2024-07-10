@@ -1,5 +1,6 @@
 # env
 .env/*
+!.env/.gitkeep
 
 HELP.md
 potato/.gradle
