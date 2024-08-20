@@ -35,4 +35,13 @@ public class User {
     private String state;
     private boolean isDeleted;
     private int pwdFailCnt;
+
+    // getter and setter for id
+    public Long getUserId() {
+        return userId;
+    }
+
+    public void setId(Long userId) {
+        this.userId = userId;
+    }
 }
