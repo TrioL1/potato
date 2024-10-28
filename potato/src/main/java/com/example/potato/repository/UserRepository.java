@@ -5,7 +5,7 @@ import com.example.potato.model.User;
 
 import java.util.List;
 
-public interface UserRepo extends JpaRepository<User, Long> {
+public interface UserRepository extends JpaRepository<User, Long> {
     // Method to find a User by email
     User findByEmail(String email);
 
