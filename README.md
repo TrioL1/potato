@@ -1,18 +1,10 @@
-# Blind 앱 만들기
+# Blind
 
-### 개발 진행 방법
+### URLs
 
-- 먼저 `dev` branch 에서 작업을 한 후에 성공적으로 실행이 된다면
-- pull request 를 날려 `main` branch 로 merge 를 한다.
-
-# 1. Entity Class 작성
-
-- ERD에 맞게 각 테이블에 대한 JPA 엔티티 클래스를 작성
-
-# 2. Repository 인터페이스 생성
-
-- 각 Entity에 대해 JpaRepository를 상속받는 리포지토리 인터페이스를 생성
-- Spring Data JPA의 JpaRepository를 상속받아 기본적인 CRUD 작업을 수행할 수 있는 리포지토리를 생성
+- 회원가입 (/api/register)
+- 로그인 (/api/)
+- 로그인 후 홈으로 (/api/home)
 
 ## A. UserRepository
 
