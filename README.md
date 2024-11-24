@@ -2,9 +2,13 @@
 
 ### URLs
 
-- 회원가입 (/api/register)
+- 회원가입 (/api/register)  
+    
+    ![registerSuccess.png](./potato/readmePics/registerSuccess.png)
+    
 - 로그인 (/api/)
-- 로그인 후 홈으로 (/api/home)
+
+    ![loginSuccess.png](./potato/readmePics/loginSuccess.png)
 
 ## A. UserRepository
 
