@@ -37,10 +37,10 @@ public class UserController {
 
     // 로그인
     @PostMapping("/login")
-    public ResponseEntity<ApiResponse> loginUser(@RequestBody User LoginRequest) {
-        Optional<User> user = userService.findUserByEmail(LoginRequest.getEmail());
+    public ResponseEntity<ApiResponse> loginUser(@RequestBody LoginRequest loginRequest) {
+        Optional<User> user = userService.findUserByEmail(loginRequest.getEmail());
 
-        if (user.isPresent() && passwordEncoder.matches(LoginRequest.getPassword(), user.get().getPassword())) {
+        if (user.isPresent() && passwordEncoder.matches(loginRequest.getPassword(), user.get().getPassword())) {
             return ResponseEntity.ok(new ApiResponse(true, "Login successful!"));
         }
 
